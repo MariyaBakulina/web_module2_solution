@@ -1,9 +1,41 @@
-<!DocTyPe html>
+<!-- Desctop, Tablet, Mobile responsive page.
+Page must include CSS file. No inline style allowed.
+Desktop >= 992px, Tablet 768px - 991px, Mobile <= 767px
+Heading and 3 sections (all in one row in the desctop view).
+Each section contains some text.                                          
+-->
+
+<!DocType html>
 <html>
     <head>
-        <title>Hello Coursera Title</title>
-    </head>   
-    <body>
-        <div>Hello Hello Hello</div>
-    </body>    
+        <meta charset="utf-8">       
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Module 2 solution (HTML, CSS, Javascript)</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>   
+        <h1>OSCAR 2021</h1>
+        <div class="row">             
+            <div class="col-lg-1 col-md-1 col-sm-1" id="outer_div">
+                <div id="column">                
+                    <p id="p1">Best Picture</p>  
+                    <section>Winner: CODA.Nominees: Belfast, Don't Look Up, Drive My Car. <br>2020 - "Parasite", 
+                        2019 - "Green Book", 2018 - "The Shape of Water", 2017 - "Moonlight"</section>
+                </div>                
+            </div>            
+            <div class="col-lg-2 col-md-2 col-sm-2" id="outer_div">
+                <div id="column">
+                    <p id= "p2">Animated Feature Film</p>
+                    <section>Winner: Encanto. Nominees: Flee, Luca, The Mitchells vs. The Machines, Raya and the Last Dragon</section>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3" id="outer_div">
+                <div id="column">
+                    <p id="p3">International Feature Film</p>
+                    <section>Winner: Drive My Car. Nominees: Flee, The Hand Of God, Lunana: A Yak In The Classroom, The Worst Person In The World</section>
+                </div>
+            </div>            
+        </div>        
+    </body>
 </html>
